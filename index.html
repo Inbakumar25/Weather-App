@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Weather Forecast App</h1>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/inba-kumar-4b14532a4/" target="_blank">
+                <img src="download.png" alt="LinkedIn" class="logo">
+            </a>
+            <a href="https://github.com/Inbakumar25" target="_blank">
+                <img src="download1.png" alt="GitHub" class="logo">
+            </a>
+        </div>
+    </header>
+    <main>
+        <div class="search-container">
+            <form id="weatherForm">
+                <input type="text" id="cityInput" placeholder="Enter city name">
+                <button type="submit">Search</button>
+                <button type="button" id="voiceButton">🎤</button>
+            </form>
+        </div>
+        <div class="weather-info">
+            <h2 id="cityName">--</h2>
+            <p id="description">Weather Description: --</p>
+            <p>Temperature: <span id="temp">--</span>°C</p>
+            <p>Clouds: <span id="clouds">--</span>%</p>
+            <p>Humidity: <span id="humidity">--</span>%</p>
+            <p>Pressure: <span id="pressure">--</span> hPa</p>
+        <h1>Created by Inbakumar.G</h1>
+    </div>
+    </main>
+    <div>
+    <footer>
+        Powered by OpenWeatherMap
+    </footer></div>
+    <script src="app.js"></script>
+</body>
+</html>
